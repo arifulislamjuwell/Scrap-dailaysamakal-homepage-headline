@@ -1,0 +1,1 @@
+Retrieve and show Homepage Headline to another file from the daily SAMAKAL newspaper

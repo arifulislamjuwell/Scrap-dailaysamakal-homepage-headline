@@ -1,0 +1,215 @@
+ERROR:root:
+Traceback (most recent call last):
+  File "C:/Users/Julu/python/PAscraping/pascraping.py", line 5, in <module>
+    raise Exception
+Exception
+ERROR:root:HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 20, in retrieve_webpage
+    html= urlopen(self.__url)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 35, in write_page_as_html
+    fileobject.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 20, in retrieve_webpage
+    html= urlopen(self.__url)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 35, in write_page_as_html
+    fileobject.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 20, in retrieve_webpage
+    html= urlopen(self.__url)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 35, in write_page_as_html
+    fileobject.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 20, in retrieve_webpage
+    html= urlopen(self.__url)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 35, in write_page_as_html
+    fileobject.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 20, in retrieve_webpage
+    html= urlopen(self.__url)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 35, in write_page_as_html
+    fileobject.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 20, in retrieve_webpage
+    html= urlopen(self.__url)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 35, in write_page_as_html
+    fileobject.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:HTTP Error 403: Forbidden
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 20, in retrieve_webpage
+    html= urlopen(self.__url)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 531, in open
+    response = meth(req, response)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 641, in http_response
+    'http', request, response, code, msg, hdrs)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 569, in error
+    return self._call_chain(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\urllib\request.py", line 649, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 403: Forbidden
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 35, in write_page_as_html
+    fileobject.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:'charmap' codec can't decode byte 0x8d in position 18585: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 43, in read_page_from_html
+    self.__data=fileobjects.read()
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8d in position 18585: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x8d in position 18585: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 43, in read_page_from_html
+    self.__data=fileobjects.read()
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8d in position 18585: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x8d in position 16942: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 43, in read_page_from_html
+    self.__data=fileobjects.read()
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8d in position 16942: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x8d in position 6082: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 43, in read_page_from_html
+    self.__data=fileobjects.read()
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8d in position 6082: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x8d in position 6082: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 43, in read_page_from_html
+    self.__data=fileobjects.read()
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8d in position 6082: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x8d in position 6082: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 43, in read_page_from_html
+    self.__data=fileobjects.read()
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8d in position 6082: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x8d in position 6082: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 43, in read_page_from_html
+    self.__data=fileobjects.read()
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8d in position 6082: character maps to <undefined>
+ERROR:root:'charmap' codec can't decode byte 0x8d in position 6082: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\Julu\python\PAscraping\pascrap\pascrap.py", line 43, in read_page_from_html
+    self.__data=fileobjects.read()
+  File "C:\Users\Julu\AppData\Local\Programs\Python\Python37\lib\encodings\cp1252.py", line 23, in decode
+    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
+UnicodeDecodeError: 'charmap' codec can't decode byte 0x8d in position 6082: character maps to <undefined>
